@@ -1,7 +1,7 @@
 #!/bin/sh
 CHART_DIR="./charts"
 RELEASES_DIR="./releases"
-GITHUB_ROOT="https://github.com/acidbotmaker/kfirfer-helm/raw/elasticsearch-7.17.3/"
+GITHUB_ROOT="https://acidbotmaker.github.io/kfirfer-helm/"
 
 echo "Clearing old builds"
 rm -rf $RELEASES_DIR/*.tgz
