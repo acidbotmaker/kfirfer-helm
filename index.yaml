@@ -1,0 +1,397 @@
+apiVersion: v1
+entries:
+  elastalert2:
+  - apiVersion: v1
+    appVersion: 2.2.3
+    created: "2023-08-07T15:38:58.026960324+05:30"
+    description: Automated rule-based alerting for Elasticsearch
+    digest: c8e67bf4682eaa99e1168ffe9cab899f19d15f4d4c9349e4fa02330033c8d485
+    home: https://github.com/jertel/elastalert2
+    maintainers:
+    - name: jertel
+    - name: kfirfer
+    name: elastalert2
+    sources:
+    - https://github.com/jertel/elastalert2
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/elastalert2-2.2.4.tgz
+    version: 2.2.4
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 7.17.3
+    created: "2023-08-07T15:38:58.028407542+05:30"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: e3418cdd081ebecae999f2a503f4e82964660253fbe09935f05a6ea75fda1db0
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/elasticsearch-7.17.3.tgz
+    version: 7.17.3
+  elasticsearch-curator:
+  - apiVersion: v2
+    appVersion: 5.8.4
+    created: "2023-08-07T15:38:58.028921055+05:30"
+    description: A Helm chart for Elasticsearch Curator
+    digest: 44625ea220d7c15989bf6819821337945d0f9e6f8cd6ebe132531c1b48e458c7
+    home: https://github.com/elastic/curator
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: adam.hamsik@lablabs.io
+      name: haad
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/kubernetes/charts/elasticsearch-curator
+    - https://github.com/pires/docker-elasticsearch-curator
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/elasticsearch-curator-2.2.2.tgz
+    version: 2.2.2
+  event-exporter:
+  - annotations:
+      category: LogManagement
+    apiVersion: v2
+    appVersion: "0.9"
+    created: "2023-08-07T15:38:58.029136678+05:30"
+    description: event-exporter
+    digest: 786bac16534cbe448547d0b71d748ead56770975d3329b767fca97743947e2df
+    home: https://github.com/kfirfer/helm/tree/master/charts/event-exporter
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: event-exporter
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/event-exporter-0.0.4.tgz
+    version: 0.0.4
+  haproxy:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.2.23
+    created: "2023-08-07T15:38:58.029689206+05:30"
+    description: Fast, reliable, scalable, and easy to use proxy
+    digest: bbc0eea42b9a70268ea174daeb0728abe631f6af5f0483d12c561f0461c41c91
+    home: https://github.com/kfirfer/helm/tree/master/charts/haproxy
+    icon: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/yroykjzjfi8lmeam58xp
+    keywords:
+    - haproxy
+    - proxy
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: haproxy
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/haproxy-0.1.3.tgz
+    version: 0.1.3
+  heartbeat:
+  - apiVersion: v2
+    appVersion: 7.17.3
+    created: "2023-08-07T15:38:58.030046219+05:30"
+    description: A Helm chart to periodically check the status of your services with
+      heartbeat
+    digest: d0e97f4f039a99ed9cf6797bf5246c137071280d0796566ca442c24b307d47de
+    home: https://www.elastic.co/products/beats/heartbeat
+    icon: https://www.elastic.co/jp/assets/blt75e7956191e1bd55/icon-heartbeat-bb.svg
+    name: heartbeat
+    sources:
+    - https://www.elastic.co/guide/en/beats/heartbeat/current/index.html
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/heartbeat-7.17.3.tgz
+    version: 7.17.3
+  jellyfin:
+  - apiVersion: v2
+    appVersion: 10.7.5
+    created: "2023-08-07T15:38:58.030520516+05:30"
+    description: Jellyfin
+    digest: 6a3c73dc55574fbfb82401e773e65493b62e97b227650811cb59efb1fe8ff018
+    home: https://github.com/kfirfer/helm/tree/master/charts/jellyfin
+    icon: https://developer.asustor.com/uploadIcons/0020_999_1568614440_Jellyfin_256.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: jellyfin
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/jellyfin-2.0.2.tgz
+    version: 2.0.2
+  kibana-index-pattern-updater:
+  - apiVersion: v2
+    appVersion: 1.0.12
+    created: "2023-08-07T15:38:58.030909135+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0c106b9b232fe23a1148c305fb12e1e2d202759d79e293af6a9dd307070b37ed
+    name: kibana-index-pattern-updater
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/kibana-index-pattern-updater-0.0.1.tgz
+    version: 0.0.1
+  mysql-check:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.5.8
+    created: "2023-08-07T15:38:58.031626261+05:30"
+    description: A Helm chart for Kubernetes
+    digest: ca8238844468e8d75c2861db5cfd730cf9aa05b40bf78c91a58db4f54235587d
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-check
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-check
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/mysql-check-0.1.4.tgz
+    version: 0.1.4
+  mysql-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.20
+    created: "2023-08-07T15:38:58.03215307+05:30"
+    description: A Helm chart for MySQL Cluster
+    digest: 6720d73e5b24feebfd4a52a81c57fc34ad92f76d32571eb142cde3eb57bc45d3
+    home: https://github.com/kfirfer/helm/tree/master/charts/mysql-cluster
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - kubernetes
+    - mysql
+    - mysql-cluster
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: mysql-cluster
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/mysql-cluster-0.0.3.tgz
+    version: 0.0.3
+  mysqldump:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 2.4.1
+    created: "2023-08-07T15:38:58.032904923+05:30"
+    description: A Helm chart to help backup MySQL databases using mysqldump
+    digest: 6adc9743e9beb203bbd7f6099ef3d49c77412f6c8366cbfbfdd6dbab8fb25952
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - mysqldump
+    - backup
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: mysqldump
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/mysqldump-2.7.2.tgz
+    version: 2.7.2
+  oauth2-proxy:
+  - apiVersion: v2
+    appVersion: v6.1.1
+    created: "2023-08-07T15:38:58.033509379+05:30"
+    description: A reverse proxy that provides authentication with Google, Github
+      or other providers
+    digest: 28fa95b4bfd02aacffab3b3db4f2a6f1bbcf63618e2b8b150605a4714b4e9550
+    home: https://pusher.github.io/oauth2_proxy/
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    kubeVersion: '>=1.9.0-0'
+    name: oauth2-proxy
+    sources:
+    - https://github.com/pusher/oauth2_proxy
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/oauth2-proxy-3.3.2.tgz
+    version: 3.3.2
+  onlyoffice:
+  - apiVersion: v2
+    appVersion: 7.0.1.37
+    created: "2023-08-07T15:38:58.03390516+05:30"
+    description: A Helm chart for onlyoffice
+    digest: d1a4c69d37e16a75d39c64acf3cef138cd7cca2e185d6eac4c8cedcbcc62591e
+    home: https://www.onlyoffice.com/
+    icon: https://avatars0.githubusercontent.com/u/22418908?s=200&v=4
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: Kfirfer
+    name: onlyoffice
+    sources:
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/onlyoffice-1.2.3.tgz
+    version: 1.2.3
+  percona-toolkit:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.2.1
+    created: "2023-08-07T15:38:58.034192897+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2c954716fac03fee7ee56d7eac4f553ee290612e57f76d8b52181f3b2e862598
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-toolkit
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: percona-toolkit
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/percona-toolkit-0.0.5.tgz
+    version: 0.0.5
+  percona-xtradb-cluster:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.27-18.1
+    created: "2023-08-07T15:38:58.035515756+05:30"
+    description: free, fully compatible, enhanced, open source drop-in replacement
+      for MySQL with Galera Replication (xtradb)
+    digest: 7ce27f7e420a5400181412d19eb62bbc89e417355fd9684a1bf7190e84231f38
+    home: https://github.com/kfirfer/helm/tree/master/charts/percona-xtradb-cluster
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    keywords:
+    - mysql
+    - percona
+    - database
+    - sql
+    - xtradb
+    - galera
+    - wsrep
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: percona-xtradb-cluster
+    sources:
+    - https://www.percona.com/
+    - https://github.com/percona-lab/percona-docker/
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/percona-xtradb-cluster-1.5.4.tgz
+    version: 1.5.4
+  permission-manager:
+  - apiVersion: v1
+    appVersion: v1.7.1-rc1
+    created: "2023-08-07T15:38:58.03586408+05:30"
+    description: A Helm chart for Kube-hunter
+    digest: 5a718b80262d5c0ea84b1911b68135470e7c2230635c62899721e82521049c35
+    icon: https://3.bp.blogspot.com/-9_-b0nEDB94/XDeXlBAancI/AAAAAAAAEo0/T7V1-SK_MWcXgNDxbrk1uJTaPTDZPATyACLcBGAs/s1600/helm.png
+    keywords:
+    - kubernetes
+    - security
+    name: permission-manager
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/permission-manager-1.0.6.tgz
+    version: 1.0.6
+  phpmemcachedadmin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-08-07T15:38:58.036274766+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 239ca27d76e6d452e791ffaadb9cb3fb85d2896f2e1595d5bfdb64be8ed25963
+    name: phpmemcachedadmin
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/phpmemcachedadmin-0.1.3.tgz
+    version: 0.1.3
+  pmm-server:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 2.27.0
+    created: "2023-08-07T15:38:58.036715717+05:30"
+    description: A Helm chart for Kubernetes
+    digest: e7f4ecb4b81081f219299ed191de8b77d2fd056a37aef2a67243cf1e05cd03b6
+    home: https://github.com/kfirfer/helm/tree/master/charts/pmm-server
+    icon: https://www.percona.com/sites/all/themes/percona2015/logo.png
+    maintainers:
+    - email: kfirfer@gmail.com
+      name: kfir
+    name: pmm-server
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/pmm-server-0.2.4.tgz
+    version: 0.2.4
+  proxysql:
+  - apiVersion: v2
+    appVersion: 2.0.15
+    created: "2023-08-07T15:38:58.037094092+05:30"
+    description: Chart for ProxySQL
+    digest: 2b32a94f3b23d25eaa927787d48cd5f43e9e01cec98a491dd2a3d95a4507800d
+    home: http://www.proxysql.com/
+    keywords:
+    - mysql
+    - database
+    - proxysql
+    - cluster
+    maintainers:
+    - email: jeremyxu2010@gmail.com
+      name: Jeremy Xu
+    name: proxysql
+    sources:
+    - https://github.com/sysown/proxysql
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/proxysql-0.0.2.tgz
+    version: 0.0.2
+  redis-commander:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-08-07T15:38:58.037494474+05:30"
+    description: A Helm chart for redis-commander
+    digest: 8a1953eb6e85bbb87b9460547a02615e81cb50124ed0a5f01f5a7565fd2124ef
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/redis-commander-0.1.3.tgz
+    version: 0.1.3
+  redis-ha:
+  - apiVersion: v1
+    appVersion: 6.0.11
+    created: "2023-08-07T15:38:58.039018031+05:30"
+    description: This Helm chart provides a highly available Redis implementation
+      with a master/slave configuration and uses Sentinel sidecars for failover management
+    digest: c7225e56700d1715a2ce3d74fac987b852077fb58c9d033f04d3330e70bdf959
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: salimsalaues@gmail.com
+      name: ssalaues
+    - email: aaron.layfield@gmail.com
+      name: dandydeveloper
+    - email: kfirfer@gmail.com
+      name: kfirfer
+    name: redis-ha
+    sources:
+    - https://redis.io/download
+    - https://github.com/DandyDeveloper/charts/blob/master/charts/redis-ha
+    - https://github.com/oliver006/redis_exporter
+    urls:
+    - https://github.com/acidbotmaker/kfirfer-helm.git/releases/redis-ha-4.12.9.tgz
+    version: 4.12.9
+generated: "2023-08-07T15:38:58.026356753+05:30"
